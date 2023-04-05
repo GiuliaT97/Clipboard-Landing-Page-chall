@@ -1,0 +1,480 @@
+:root{
+
+    --ff-bai: 'Bai Jamjuree', sans-serif;
+    --c-greenbutton:hsl(171, 66%, 44%);
+    --c-bluebotton: hsl(233, 100%, 69%);
+    --c-darkgrey: hsl(210, 10%, 33%);
+    --c-lightgrey:hsl(201, 11%, 66%);
+
+}
+
+
+
+body{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.container{
+
+    width: 100%;
+
+}
+
+
+.header{
+
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height:50vh;
+
+}
+
+.logo{
+
+    width:100px;
+
+}
+
+.introduction{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+    margin-top: 2.5rem;
+
+}
+
+.introduction h1{
+
+    font-family: var(--ff-bai);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color:black;
+
+}
+
+.introduction p{
+
+    font-family: var(--ff-bai);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:var(--c-lightgrey);
+    text-align: center;
+    width:30%;
+    line-height: 1.3rem;
+}
+
+.download_buttons{
+
+    display: flex;
+    gap:0.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.button_ios{
+
+    background-color: var(--c-greenbutton);
+    font-family: var(--ff-bai);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:white;
+    border-radius: 2rem;
+    padding-top:0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left:1.2rem;
+    padding-right: 1.2rem;
+
+}
+
+.button_ios:hover{
+
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.button_mac{
+
+    background-color: var(--c-bluebotton);
+    font-family: var(--ff-bai);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:white;
+    border-radius: 2rem;
+    padding-top:0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left:1.2rem;
+    padding-right: 1.2rem;
+
+}
+
+.button_mac:hover{
+
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    margin-top:5rem;
+
+}
+
+.info h2{
+
+    font-family: var(--ff-bai);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:black;
+
+}
+
+.info p{
+
+    font-family: var(--ff-bai);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:var(--c-lightgrey);
+    text-align: center;
+    width:35%;
+    line-height: 1.3rem;
+
+}
+
+.computer_container{
+
+    display:flex;
+    gap:10rem;
+    margin-top: 5rem;
+
+}
+
+.computer_container img{
+
+    width:45%;
+    margin-left: -2rem;
+
+}
+
+.computer_info_box{
+
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    justify-content: center;
+    width:21%;
+
+}
+
+
+.computer_info{
+
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+
+}
+
+
+.computer_info h3{
+
+
+   font-family: var(--ff-bai);
+    font-size: 1rem;
+    font-weight: 400;
+    color:black;
+
+
+}
+
+.computer_info p{
+
+    font-family: var(--ff-bai);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:var(--c-lightgrey);
+    line-height: 1.3rem;
+
+}
+
+
+.devices{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+.devices img{
+    width:45%;
+}
+
+.options{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:6rem;
+    margin-left:15.06rem;
+    margin-right: 15.06rem;
+    margin-top: 5rem;
+
+}
+
+.option{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+
+}
+
+.img{
+
+    width:max-content;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.option h3{
+
+    font-family: var(--ff-bai);
+    font-size: 1rem;
+    font-weight: 400;
+    color:black;
+
+}
+
+.option p{
+
+    font-family: var(--ff-bai);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:var(--c-lightgrey);
+    line-height: 1.5rem;
+
+}
+
+.icons{
+
+    display:flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-around;
+    height:2rem;
+
+}
+
+
+.footer{
+
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:1rem;
+    margin-top:5rem;
+    background-color: hsla(201, 11%, 66%, 0.2);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.menu{
+
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-family: var(--ff-bai);
+    font-size: 1rem;
+    font-weight: 400;
+    color:var(--c-darkgrey);
+  
+
+}
+
+.menu h3:hover{
+
+    cursor: pointer;
+    color:var(--c-greenbutton);
+
+}
+
+
+
+.footer_logo{
+
+    grid-column: span 1;
+    height:3.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social_media_icons{
+
+    display: flex;
+    height:1.5rem;
+    justify-content: flex-start;
+    gap:1rem;
+    align-items: center;
+    
+
+}
+
+.social_media_icons svg:hover{
+
+    cursor:pointer;
+
+}
+
+.social_media_icons svg path:hover{
+
+
+    fill:var(--c-greenbutton);
+
+
+}
+
+
+
+@media (max-width:650px) {
+
+    .introduction p{
+
+        width:80%;
+        
+    }
+
+    .download_buttons{
+
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+        margin-top: 1.5rem;
+    
+    }
+    
+    .info p{
+
+        width:80%;
+       
+    }
+
+    .computer_container{
+
+        display:flex;
+        flex-direction: column;
+        gap:5rem;
+        margin-top: 5rem;
+        align-items: center;
+    
+    }
+
+    .computer_container img{
+
+        width:45%;
+        margin-left: 0rem;
+    
+    }
+
+    .computer_info_box{
+
+        display: flex;
+        flex-direction: column;
+        gap:2.5rem;
+        justify-content: center;
+        text-align: center;
+        width:70%;
+    
+    }
+
+
+    .options{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+        margin-left:10rem;
+        margin-right: 10rem;
+        margin-top: 5rem;
+    
+    }
+
+    .icons{
+
+        display:flex;
+        flex-direction: column;
+        margin-top: 18rem;
+        margin-bottom: 18rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        justify-content: center;
+        align-items: center;
+        height:2rem;
+        gap:4rem;
+    
+    }
+    
+    .menu{
+
+        grid-column: span 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+        font-family: var(--ff-bai);
+        font-size: 1rem;
+        font-weight: 400;
+        color:var(--c-darkgrey);
+      
+    
+    }
+    
+  
+    .footer_logo{
+    
+        grid-column: span 10;
+        height:3.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    
+    .social_media_icons{
+    
+        display: flex;
+        height:1.5rem;
+        justify-content: center;
+        gap:1rem;
+        align-items: center;
+        grid-column: span 10;
+        margin-top: 2rem;
+    
+    }
+ 
+ 
+}
